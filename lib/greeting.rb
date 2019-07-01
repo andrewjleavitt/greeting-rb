@@ -1,5 +1,5 @@
 class Greeting
-  def greet
-    "Hello, my friend."
+  def self.greet(name)
+
   end
 end

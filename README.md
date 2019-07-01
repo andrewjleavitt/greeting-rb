@@ -24,7 +24,7 @@ Handle two names of input. When `name` is an array of two names (or, in language
 
 ## Requirement 5
 
-Handle arbitrarily names of input. When `name` represents more than two names, separate them with commas and close with an Oxford comma and "and". For example, when `name` is `["Amy", "Brian", "Charlotte"]`, then the method should return the string `"Hello, Amy, Brian, and Charlotte."`
+Handle an arbitrary number of names of input. When `name` represents more than two names, separate them with commas and close with an Oxford comma and "and". For example, when `name` is `["Amy", "Brian", "Charlotte"]`, then the method should return the string `"Hello, Amy, Brian, and Charlotte."`
 
 ## Requirement 6
 
@@ -36,4 +36,4 @@ If any entries in `name` are a string containing a comma, split it as its own in
 
 ## Requirement 8
 
-Allow the input to escape intentional commas introduced by Requirement 7. These can be escaped in the same manner that CSV is, with double quotes surrounding the entry. For example, For example, when `name` is ["Bob", "\"Charlie, Dianne\""], then the method should return the string `"Hello, Bob and Charlie, Dianne."`.
+Allow the input to escape intentional commas introduced by Requirement 7. These can be escaped in the same manner that CSV is, with double quotes surrounding the entry. For example, when `name` is ["Bob", "\"Charlie, Dianne\""], then the method should return the string `"Hello, Bob and Charlie, Dianne."`.

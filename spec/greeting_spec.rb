@@ -3,8 +3,8 @@ require_relative '../lib/greeting'
 
 RSpec.describe Greeting do
   describe "#greet" do
-    it "says hello to an old friend" do
-      expect(Greeting.new.greet).to eq "Hello, my friend."
+    it "can greet a friend" do
+      expect(Greeting.greet("Bob")).to eq "Hello, Bob."
     end
   end
 end
